@@ -49,7 +49,7 @@ public class JmsConsumer {
             messageConsumer = session.createConsumer(destination);
             Message message;
             while((message = messageConsumer.receive())!=null){
-                System.out.println(((TextMessage)message).getText());
+                System.out.println("收到消息"+((TextMessage)message).getText());
             }
 
         } catch (JMSException e) {
