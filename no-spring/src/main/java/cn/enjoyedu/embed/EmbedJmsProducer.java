@@ -28,10 +28,8 @@ public class EmbedJmsProducer {
         Session session;
         Destination destination;
         MessageProducer messageProducer;
-
         connectionFactory
                 = new ActiveMQConnectionFactory(USERNAME,PASSWORD,BROKEURL);
-
         try {
             connection = connectionFactory.createConnection();
             connection.start();

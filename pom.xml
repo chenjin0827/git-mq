@@ -12,6 +12,7 @@
         <module>am-with-spring-p</module>
         <module>am-with-sprimg-c</module>
         <module>asyncApp</module>
+        <module>am-with-springboot</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
