@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>war</packaging>
 
-    <artifactId>am-with-sprimg-c</artifactId>
+    <artifactId>am-with-spring-c</artifactId>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>am-with-spring-c</module>
+        <module>../am-with-spring-c</module>
     </modules>
 
     <artifactId>am-with-spring-p</artifactId>
